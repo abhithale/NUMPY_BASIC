@@ -1,4 +1,4 @@
-# NumPy Basics 🚀
+# NumPy 🚀
 
 This repository contains my practice and understanding of **NumPy**, a fundamental library for numerical computing in Python.
 
