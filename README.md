@@ -1,75 +1,53 @@
-# NumPy 🚀
+E-Commerce Product Data Analysis
+📌 Executive Summary
 
-This repository contains my practice and understanding of **NumPy**, a fundamental library for numerical computing in Python.
+This project analyzes a dataset of 27,000+ e-commerce products to extract meaningful insights related to product distribution, pricing behavior, and customer ratings. Using Python-based data analysis tools, the dataset was cleaned, explored, and visualized to identify patterns that can support better business decision-making.
 
----
+🎯 Business Problem
 
-## 📌 Overview
+E-commerce platforms deal with large product inventories, but without proper analysis, it becomes difficult to answer key questions like:
 
-In this project, I explored core NumPy concepts such as:
-- Array creation
-- Indexing and slicing
-- Mathematical operations
-- Aggregation functions
-- Data manipulation techniques
+Which product categories dominate the inventory?
+Are products priced competitively?
+How do customers perceive products based on ratings?
+Is the platform focused more on affordability or premium offerings?
 
-This notebook is part of my journey to becoming a **Data Analyst**, where NumPy plays a key role in handling numerical data efficiently.
+This project aims to solve these problems using data-driven analysis.
 
----
-
-## 🛠️ Tools & Technologies
-
-- Python
-- NumPy
-- Jupyter Notebook / Google Colab
-
----
-
-## 📂 Project Structure
-# E-commerce Product Data Analysis
-
-**Project Overview**  
-This project analyzes a dataset of **27,000+ e-commerce products** to uncover insights about product categories, pricing trends, and customer ratings. The goal is to perform **data cleaning, exploratory data analysis (EDA), and visualization** to understand the product inventory and customer feedback patterns.
-
----
-
-## 📂 Dataset
-- The dataset contains columns like `product`, `category`, `brand`, `sale_price`, `market_price`, `rating`, etc.
-- All data has been cleaned for missing values and formatted for analysis.
-
----
-
-## 🔍 Key Analysis Performed
-- Handled missing values and inconsistent data using **Pandas**
-- Conducted EDA to understand:
-  - Product distribution across categories
-  - Pricing trends and price spread
-  - Customer ratings distribution
-- Visualized insights using **Matplotlib** and **Seaborn**
-- Created reusable visualization styling for consistency
-
----
-
-## 📊 Key Insights
-- A few categories dominate the dataset, e.g., **Beauty & Hygiene**  
-- Most products are priced under ₹500, indicating an affordability-focused inventory  
-- Ratings are clustered between **3.5 and 4.5**, showing generally positive customer feedback  
-- Very few high-priced products may represent premium items
-
----
-
-## 🛠 Skills & Tools
-- **Languages:** Python  
-- **Libraries:** Pandas, Matplotlib, Seaborn  
-- **Techniques:** Data Cleaning, Exploratory Data Analysis (EDA), Data Visualization  
-
----
-
-## 📈 Sample Visualizations
-<!-- Add screenshots of your graphs in the visuals folder -->
-![Category Distribution](visuals/category_distribution.png)
-![Price Distribution](visuals/price_distribution.png)
-![Ratings Distribution](visuals/ratings_distribution.png)
-
----
-
+⚙️ Methodologies
+1. Data Cleaning
+Handled missing values
+Removed inconsistencies
+Standardized pricing and rating formats
+2. Exploratory Data Analysis (EDA)
+Analyzed category-wise product distribution
+Studied pricing patterns (sale price vs market price)
+Examined rating distribution
+3. Data Visualization
+Used graphs to identify trends and patterns
+Built consistent and reusable visualization styles
+🛠 Skills Used
+Programming Language: Python
+Libraries:
+Pandas (data cleaning & manipulation)
+Matplotlib (basic visualization)
+Seaborn (advanced visualization)
+Techniques:
+Data Cleaning
+Exploratory Data Analysis (EDA)
+Data Visualization
+📈 Results & Business Recommendations
+🔍 Key Findings
+A small number of categories (e.g., Beauty & Hygiene) dominate the inventory
+Majority of products are priced below ₹500 → strong focus on affordability
+Customer ratings are mostly between 3.5 and 4.5 → generally positive feedback
+Very few high-priced products → limited premium segment
+💡 Business Recommendations
+Inventory Optimization:
+Reduce over-representation of dominant categories and expand underrepresented ones for better balance
+Pricing Strategy:
+Maintain competitive pricing in the affordable segment while introducing more premium products to increase margins
+Customer Experience Improvement:
+Analyze low-rated products to identify quality or service issues
+Upselling Opportunities:
+Introduce mid-range and premium products to increase average order value (AOV)
